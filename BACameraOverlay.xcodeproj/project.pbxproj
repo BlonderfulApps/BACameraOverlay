@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB2158791D9E501A0072AF27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2158781D9E501A0072AF27 /* main.m */; };
+		AB21587C1D9E501A0072AF27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB21587B1D9E501A0072AF27 /* AppDelegate.m */; };
+		AB2158841D9E501A0072AF27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB2158831D9E501A0072AF27 /* Assets.xcassets */; };
+		AB2158871D9E501A0072AF27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB2158851D9E501A0072AF27 /* LaunchScreen.storyboard */; };
+		AB2158931D9E523C0072AF27 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2158911D9E523C0072AF27 /* HomeViewController.m */; };
+		AB2158941D9E523C0072AF27 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB2158921D9E523C0072AF27 /* HomeViewController.xib */; };
+		ABD7ECA61E547FDE003FC16B /* BACameraPickerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD7ECA21E547FDE003FC16B /* BACameraPickerHandler.m */; };
+		ABD7ECA71E547FDE003FC16B /* BACameraPickerOverlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABD7ECA41E547FDE003FC16B /* BACameraPickerOverlayViewController.m */; };
+		ABD7ECA81E547FDE003FC16B /* BACameraPickerOverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD7ECA51E547FDE003FC16B /* BACameraPickerOverlayViewController.xib */; };
+		ABD7ECAC1E5491F3003FC16B /* image_overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = ABD7ECAB1E5491F3003FC16B /* image_overlay.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AB2158741D9E501A0072AF27 /* BACameraOverlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BACameraOverlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB2158781D9E501A0072AF27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB21587A1D9E501A0072AF27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB21587B1D9E501A0072AF27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB2158831D9E501A0072AF27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB2158861D9E501A0072AF27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB2158881D9E501A0072AF27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB2158901D9E523C0072AF27 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		AB2158911D9E523C0072AF27 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		AB2158921D9E523C0072AF27 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		ABD7ECA11E547FDE003FC16B /* BACameraPickerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACameraPickerHandler.h; sourceTree = "<group>"; };
+		ABD7ECA21E547FDE003FC16B /* BACameraPickerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACameraPickerHandler.m; sourceTree = "<group>"; };
+		ABD7ECA31E547FDE003FC16B /* BACameraPickerOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BACameraPickerOverlayViewController.h; sourceTree = "<group>"; };
+		ABD7ECA41E547FDE003FC16B /* BACameraPickerOverlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BACameraPickerOverlayViewController.m; sourceTree = "<group>"; };
+		ABD7ECA51E547FDE003FC16B /* BACameraPickerOverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BACameraPickerOverlayViewController.xib; sourceTree = "<group>"; };
+		ABD7ECAB1E5491F3003FC16B /* image_overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image_overlay.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB2158711D9E501A0072AF27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB21586B1D9E501A0072AF27 = {
+			isa = PBXGroup;
+			children = (
+				AB2158761D9E501A0072AF27 /* BACameraOverlay */,
+				AB2158751D9E501A0072AF27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB2158751D9E501A0072AF27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB2158741D9E501A0072AF27 /* BACameraOverlay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB2158761D9E501A0072AF27 /* BACameraOverlay */ = {
+			isa = PBXGroup;
+			children = (
+				AB21587A1D9E501A0072AF27 /* AppDelegate.h */,
+				AB21587B1D9E501A0072AF27 /* AppDelegate.m */,
+				AB2158901D9E523C0072AF27 /* HomeViewController.h */,
+				AB2158911D9E523C0072AF27 /* HomeViewController.m */,
+				AB2158921D9E523C0072AF27 /* HomeViewController.xib */,
+				ABD7ECA01E547FDE003FC16B /* BACameraPicker */,
+				AB2158831D9E501A0072AF27 /* Assets.xcassets */,
+				ABD7ECAB1E5491F3003FC16B /* image_overlay.png */,
+				AB2158851D9E501A0072AF27 /* LaunchScreen.storyboard */,
+				AB2158881D9E501A0072AF27 /* Info.plist */,
+				AB2158771D9E501A0072AF27 /* Supporting Files */,
+			);
+			path = BACameraOverlay;
+			sourceTree = "<group>";
+		};
+		AB2158771D9E501A0072AF27 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB2158781D9E501A0072AF27 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ABD7ECA01E547FDE003FC16B /* BACameraPicker */ = {
+			isa = PBXGroup;
+			children = (
+				ABD7ECA11E547FDE003FC16B /* BACameraPickerHandler.h */,
+				ABD7ECA21E547FDE003FC16B /* BACameraPickerHandler.m */,
+				ABD7ECA31E547FDE003FC16B /* BACameraPickerOverlayViewController.h */,
+				ABD7ECA41E547FDE003FC16B /* BACameraPickerOverlayViewController.m */,
+				ABD7ECA51E547FDE003FC16B /* BACameraPickerOverlayViewController.xib */,
+			);
+			path = BACameraPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB2158731D9E501A0072AF27 /* BACameraOverlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB21588B1D9E501A0072AF27 /* Build configuration list for PBXNativeTarget "BACameraOverlay" */;
+			buildPhases = (
+				AB2158701D9E501A0072AF27 /* Sources */,
+				AB2158711D9E501A0072AF27 /* Frameworks */,
+				AB2158721D9E501A0072AF27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BACameraOverlay;
+			productName = CameraOverlay;
+			productReference = AB2158741D9E501A0072AF27 /* BACameraOverlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB21586C1D9E501A0072AF27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Blonderful Apps";
+				TargetAttributes = {
+					AB2158731D9E501A0072AF27 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 3ZV398JC4H;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB21586F1D9E501A0072AF27 /* Build configuration list for PBXProject "BACameraOverlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB21586B1D9E501A0072AF27;
+			productRefGroup = AB2158751D9E501A0072AF27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB2158731D9E501A0072AF27 /* BACameraOverlay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB2158721D9E501A0072AF27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB2158871D9E501A0072AF27 /* LaunchScreen.storyboard in Resources */,
+				AB2158841D9E501A0072AF27 /* Assets.xcassets in Resources */,
+				ABD7ECAC1E5491F3003FC16B /* image_overlay.png in Resources */,
+				ABD7ECA81E547FDE003FC16B /* BACameraPickerOverlayViewController.xib in Resources */,
+				AB2158941D9E523C0072AF27 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB2158701D9E501A0072AF27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB21587C1D9E501A0072AF27 /* AppDelegate.m in Sources */,
+				AB2158791D9E501A0072AF27 /* main.m in Sources */,
+				ABD7ECA61E547FDE003FC16B /* BACameraPickerHandler.m in Sources */,
+				AB2158931D9E523C0072AF27 /* HomeViewController.m in Sources */,
+				ABD7ECA71E547FDE003FC16B /* BACameraPickerOverlayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB2158851D9E501A0072AF27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB2158861D9E501A0072AF27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB2158891D9E501A0072AF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB21588A1D9E501A0072AF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB21588C1D9E501A0072AF27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZV398JC4H;
+				INFOPLIST_FILE = BACameraOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blonderfulapps.BACameraOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB21588D1D9E501A0072AF27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3ZV398JC4H;
+				INFOPLIST_FILE = BACameraOverlay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blonderfulapps.BACameraOverlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB21586F1D9E501A0072AF27 /* Build configuration list for PBXProject "BACameraOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB2158891D9E501A0072AF27 /* Debug */,
+				AB21588A1D9E501A0072AF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB21588B1D9E501A0072AF27 /* Build configuration list for PBXNativeTarget "BACameraOverlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB21588C1D9E501A0072AF27 /* Debug */,
+				AB21588D1D9E501A0072AF27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB21586C1D9E501A0072AF27 /* Project object */;
+}
