@@ -1,5 +1,5 @@
 # BACameraOverlay
-Image Picker for take a photo with overlay view.
+Image Picker for taking a photo with overlay view.
 
 
 ## Requirements
